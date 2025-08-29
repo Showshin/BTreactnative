@@ -11,7 +11,7 @@ class BankAccount {
     }
     Withdraw(amout) {
         if (this.balance < amout) {
-            return `So tien khong du de rut`;
+            return `Tai khoan khong du de rut ${amout}`;
         }
         this.balance -= amout;
         return `rut ${amout} tu tai khoan`;

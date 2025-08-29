@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const BankAccount_1 = require("./BankAccount");
+const Book_1 = require("./Book");
 const Car_1 = require("./Car");
 const Person_1 = require("./Person");
 const Rectangle_1 = require("./Rectangle");
@@ -25,3 +26,5 @@ const user = new BankAccount_1.BankAccount(100000);
 console.log(user.Deposit(200000));
 console.log(user.Withdraw(200000));
 console.log(user.Withdraw(200000));
+//Bai 6
+const book = new Book_1.Book("Cong chua ngu trong rung", "IDK", 2000);
